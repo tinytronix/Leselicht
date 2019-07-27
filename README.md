@@ -12,3 +12,11 @@ Die LED-Stripes sind in das Bett eingebaut. Bedient wird das ganze mit einem opt
 - ready to use gerber files für Leiterplatten-Produktion
 
 # Fotos
+Die Hardware
+![lt](https://github.com/tinytronix/Leselicht/blob/master/Photos/Hardware.JPG)
+![lt](https://github.com/tinytronix/Leselicht/blob/master/Photos/Drehdrueck.JPG)
+Das Bett:
+![lt](https://github.com/tinytronix/Leselicht/blob/master/Photos/Bett.JPG)
+![lt](https://github.com/tinytronix/Leselicht/blob/master/Photos/BettOffen.JPG)
+![lt](https://github.com/tinytronix/Leselicht/blob/master/Photos/BettBeleuchtet.JPG)
+![lt](https://github.com/tinytronix/Leselicht/blob/master/Photos/Lauflicht.MOV)
