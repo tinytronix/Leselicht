@@ -125,11 +125,12 @@ dann mapfile öffnen und nach 40202 suchen, um die Funktion zu finden, in der de
 Wenn ab Adresse 40202 viele Funktionen zu finden sind, kann die Suche eingegrenzt werden:
 - 40202b
 - 40202a
-- usw
-Die Adresse der gesuchten Funktion muss kleiner als die Absturzadresse sein. 
+
+...usw. Die Adresse der gesuchten Funktion muss kleiner als die Absturzadresse sein. 
 Zur Kontrolle, ob die gefundene Funktion die richtige ist:
 Zeile in map file: 40202be4 g     F .irom0.text  00000188 _Z18onHttpGet_Settingsv
-                        ^                              ^
-                        |                              |
-                   Funktionsanfang              Funktionslänge
+<br>
+40202be4: Funktionsanfang <br>
+00000188: Funktionslänge <br>
+
 Es wurde die korrekte Funktion gefunden, wenn gilt: (epc1 > Funktionsanfang) && (epc1 < (Funktionsanfang+Funktionslänge)
