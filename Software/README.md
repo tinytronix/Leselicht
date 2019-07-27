@@ -20,16 +20,14 @@ Es gibt zwei 1wire Sensoren:
 
 Beide Temperaturen können per http abgefragt werden.
 
-Die Updatefunktion wird aktiviert, indem die Upload-Webseite aufgerufen wird.
-Beispiel: http://192.168.1.49/update
-    
 Wenn ein Lichtsensor (LDR) angeschlossen ist, aktiviert sich die Beleuchtung automatisch für eine bestimmte Zeit (ca. 15s), 
 wenn es im Zimmer dunkel wird. 
-  
-Die WLAN Einstellungen können per Browser vorgenommen werden Die WLAN-Einstellungen können jederzeit geändert werden.
+ 
+# Setup via WLAN
+
+Die WLAN Einstellungen (AP, SSID, WLAN-Passwort, Subnetzmaske), können per Browser vorgenommen werden Diese WLAN-Einstellungen können jederzeit geändert werden.
 Der Betrieb ohne WLAN ist ebenfalls möglich. Näheres siehe in den Kapiteln "WLAN-Einstellungen" und "Default-Einstellungen"
 
-# WLAN-Einstellungen
 Im Initialzustand (Default) wird die Steuerung im Accesspoint-Modus betrieben.
 - SSID: ESP8266
 - Passwort: ESP8266
@@ -42,6 +40,10 @@ Dieser Betriebsmodus wird durch ein blaues Lauflicht (Komet) signalisiert. Er ka
 2. Drehdrücksteller kurz drücken. 
 Dann startet die Steuerung ebenfalls neu und leuchtet dabei für 1s grün. 
 Das WLAN ist nun vollständig deaktiviert, kann aber später erneut aktiviert werden. 
+
+# Software-Update
+Die Updatefunktion wird aktiviert, indem die Upload-Webseite aufgerufen wird.
+Beispiel: http://192.168.1.44/update
 
 # Eeprom:
 Im Eeprom werden Netzwerk-Connectivity Daten gespeichert:
