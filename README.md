@@ -19,4 +19,4 @@ Das Bett:
 ![lt](https://github.com/tinytronix/Leselicht/blob/master/Photos/Bett.JPG)
 ![lt](https://github.com/tinytronix/Leselicht/blob/master/Photos/BettOffen.JPG)
 ![lt](https://github.com/tinytronix/Leselicht/blob/master/Photos/BettBeleuchtet.JPG)
-![lt](https://github.com/tinytronix/Leselicht/blob/master/Photos/Lauflicht.MOV)
+
