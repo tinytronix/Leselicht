@@ -17,6 +17,7 @@ verlassen und alle LEDs werden ausgeschaltet.
 Es gibt zwei 1wire Sensoren:
 - Temperatur Netzteil
 - Temperatur Raum
+
 Beide Temperaturen können per http abgefragt werden.
 
 Die Updatefunktion wird aktiviert, indem die Upload-Webseite aufgerufen wird.
