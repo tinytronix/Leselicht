@@ -24,7 +24,7 @@ Wenn ein Lichtsensor (LDR) angeschlossen ist, aktiviert sich die Beleuchtung aut
 wenn es im Zimmer dunkel wird. 
  
 # Setup
-Alle Einstellungen können per Browser vorgenommen werden. Folgende Einstellungen sind möglich:
+Alle Einstellungen können per Web-Browser vorgenommen werden. Folgende Einstellungen sind möglich:
 - Name des Access Points (SSID) 
 - WLAN-Passwort
 - Subnetzmaske
@@ -36,8 +36,7 @@ Im Initialzustand (Default) wird die Steuerung im Accesspoint-Modus betrieben.
 - Passwort: ESP8266
 - IP: 192.168.1.2
 
-Alle Einstellungen können jederzeit geändert werden. Der  Accesspoint-Modus kann jederzeit aktiviert werden, indem der Drehdrücksteller gehalten wird während 
-die Spannungsversorgung eingeschaltet wird.
+Alle Einstellungen können jederzeit geändert werden. Der  Accesspoint-Modus kann jederzeit aktiviert werden, indem der Drehdrücksteller gehalten wird während die Spannungsversorgung eingeschaltet wird.
 Dieser Betriebsmodus wird durch ein blaues Lauflicht (Komet) signalisiert. Er kann auf zwei Arten beendet werden:
 1. mit dem AccessPoint ESP8266 verbinden
 2. dann entweder die Webseite http://192.168.1.2 aufrufen, dann dort zu den Wifi Einstellungen und SSID, IP, Passwort etc eingeben und OK drücken.
@@ -57,9 +56,10 @@ Im Eeprom werden Netzwerk-Connectivity Daten gespeichert:
 - Subnetzmaske
 - Wifi SSID
 - Wifi Passwort
+- Anzahl der LEDs auf Stripe 1
+- Anzahl der LEDs auf Stripe 2
 
-Das Eeprom kann via http Request aktualisiert werden.
-Beispiel: http://192.168.1.50/EEP?name=BettOben&ip=192.168.1.50&gw=192.168.1.2&sn=255.255.255.0&ssid=3-LTE-3FF2C0&pw=14et3010
+Das Eeprom Daten werden über den Web-Browser eingegeben.
 
 # Default-Einstellungen
 Die Default-Einstellungen sind:
@@ -71,7 +71,7 @@ Die Default-Einstellungen sind:
 - Wifi Passwort = ""
 - Flags: Wifi An; AP-Modus
 
-Die Default-Einstellungen können zu jedem Zeitpunkt wieder hergestellt werden, indem die Steuerung vom Stromnetz getrennt wird und dann bei gedrückt gehaltenem Drehdrück-Steller wieder mit dem Stromnetz verbunden wird. Wenn die Steuerung die Default-Einstellungen wieder hergestellt hat,blinkt das Wandlicht für 2s rot. Dann startet die Steuerung neu und befindet sich im Initialzustand. In diesem Zustand ist der Wifi Accesspoint-Modus aktiv (angezeigt durch blaues Lauflicht. Näheres zu WLAN-Einstellungen siehe Kapitel WLAN-Einstellungen  
+Die Default-Einstellungen können zu jedem Zeitpunkt wieder hergestellt werden, indem die Steuerung vom Stromnetz getrennt wird und dann bei gedrückt gehaltenem Drehdrück-Steller wieder mit dem Stromnetz verbunden wird. Wenn die Steuerung die Default-Einstellungen wieder hergestellt hat, blinkt das Wandlicht für 2s rot. Dann startet die Steuerung neu und befindet sich im Initialzustand. In diesem Zustand ist der Wifi Accesspoint-Modus aktiv (angezeigt durch blaues Lauflicht). Näheres zu WLAN-Einstellungen siehe Kapitel Setup.
 
 # Implementierungshinweise:
 Die Hauptsteuerung liegt in statemachine.ino. Diese Statemachine verarbeitet Eingabe-Events und steuert damit die LED-Stripes.
