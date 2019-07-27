@@ -1,4 +1,3 @@
-Hard- und Software zur Ansteuerung von  auf Basis Wemos D1 Mini. 
 Dieses Elektronik/Software-Projekt ist Teil meines Projektes "ich baue ein Bett mit viel Stauraum".
 Mit einem Wemos D1 Mini und zwei WS2812B LED-Stripes wird ein und soll ein Leselicht und eine Effektbeleuchtung 
 Die LED-Stripes sind in das Bett eingebaut. Bedient wird das ganze mit einem optischen Dreh-Drücksteller der Firma Grayhill.
