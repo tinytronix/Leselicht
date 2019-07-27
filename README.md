@@ -6,11 +6,13 @@ Im wesentlichen geht es hier um die Elektronik und die Software, aber unter Hard
 # Features
 - Leselicht warm/weiß
 - verschiedene Licht-Effekt
+- Fake-TV zru Anwesenheitssimulation (angebunden an meine [Hausautomation](https://github.com/tinytronix/homeautomation))
 - Lichsensor: Bettlicht an, wenn Raumlicht ausgeschaltet wird
-- Konfiguration per WLAN im AP-Mode
+- Konfiguration Web-Browser
 - zwei Temperatursensoren
 - Auslesen Temperatur, Raumhelligkeit und Systemzustände per WLAN
 - ready to use gerber files für Leiterplatten-Produktion
+
 
 # Fotos
 Die Hardware
