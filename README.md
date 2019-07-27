@@ -17,7 +17,7 @@ Im wesentlichen geht es hier um die Elektronik und die Software, aber unter Hard
 # Fotos
 Die Hardware
 ![lt](https://github.com/tinytronix/Leselicht/blob/master/Photos/Hardware2.JPG)
-![lt](https://github.com/tinytronix/Leselicht/blob/master/Photos/Drehdrueck.JPG)
+![lt](https://github.com/tinytronix/Leselicht/blob/master/Photos/Drehdrueck2.JPG)
 Das Bett:
 ![lt](https://github.com/tinytronix/Leselicht/blob/master/Photos/Bett.JPG)
 ![lt](https://github.com/tinytronix/Leselicht/blob/master/Photos/BettOffen.JPG)
