@@ -23,17 +23,20 @@ Beide Temperaturen können per http abgefragt werden.
 Wenn ein Lichtsensor (LDR) angeschlossen ist, aktiviert sich die Beleuchtung automatisch für eine bestimmte Zeit (ca. 15s), 
 wenn es im Zimmer dunkel wird. 
  
-# Setup via WLAN
-
-Die WLAN Einstellungen (AP, SSID, WLAN-Passwort, Subnetzmaske), können per Browser vorgenommen werden Diese WLAN-Einstellungen können jederzeit geändert werden.
-Der Betrieb ohne WLAN ist ebenfalls möglich. Näheres siehe in den Kapiteln "WLAN-Einstellungen" und "Default-Einstellungen"
+# Setup
+Alle Einstellungen können per Browser vorgenommen werden. Folgende Einstellungen sind möglich:
+- Name des Access Points (SSID) 
+- WLAN-Passwort
+- Subnetzmaske
+- Anzahl der LEDs auf Stripe 1
+- Anzahl der LEDs auf Stripe 2
 
 Im Initialzustand (Default) wird die Steuerung im Accesspoint-Modus betrieben.
 - SSID: ESP8266
 - Passwort: ESP8266
 - IP: 192.168.1.2
 
-Der  Accesspoint-Modus kann jederzeit aktiviert werden, indem der Drehdrücksteller gehalten wird während 
+Alle Einstellungen können jederzeit geändert werden. Der  Accesspoint-Modus kann jederzeit aktiviert werden, indem der Drehdrücksteller gehalten wird während 
 die Spannungsversorgung eingeschaltet wird.
 Dieser Betriebsmodus wird durch ein blaues Lauflicht (Komet) signalisiert. Er kann auf zwei Arten beendet werden:
 1. Webseite http://192.168.1.2, dann dort zu den Wifi Einstellungen und SSID, IP, Passwort etc eingeben und OK drücken.
