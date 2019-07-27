@@ -11,7 +11,6 @@ Im wesentlichen geht es hier um die Elektronik und die Software, aber unter Hard
 - Konfiguration Web-Browser
 - zwei Temperatursensoren
 - Auslesen Temperatur, Raumhelligkeit und Systemzustände per WLAN
-- ready to use gerber files für Leiterplatten-Produktion
 
 
 # Fotos
