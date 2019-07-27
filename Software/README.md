@@ -9,7 +9,7 @@ Statemachine (Variable sysState, siehe Statemachine.ino) zusammengefasst.
 Folgende Funktionen sind fernsteuerbar:
 
 - Licht An, Aus (Beispiel: http://192.168.1.44/CMD?LED=1)
-- Fernsehsimulation (Beispiel http://192.168.1.44/CMD?FAKETV=1)
+- Fernsehsimulation An, Aus (Beispiel http://192.168.1.44/CMD?FAKETV=1)
 
 Die entsprechenden http-Kommandos müssen zyklisch gesendet werden, sonst wird der Fernsteuermodus wieder 
 verlassen und alle LEDs werden ausgeschaltet.
