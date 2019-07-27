@@ -6,10 +6,10 @@ Diese Steuerung ist dazu da, um am Bett zwei LED Stripes Typ WS2812b zu steuern.
 Die Stripes werden mittels Drehdrücksteller gesteuert. Die Steuerung ist in einer 
 Statemachine (Variable sysState, siehe Statemachine.ino) zusammengefasst. 
 Über WLAN kann die Beleuchtung ferngesteuert werden. Die Fernsteuerung läuft über HTTP-Requests.
-Beispiel: http://192.168.1.44/CMD?LED=1 -> schaltet das Licht an
 Folgende Funktionen sind fernsteuerbar:
-- Licht An, Aus
-- Fernsehsimulation http://192.168.1.44/CMD?FAKETV=1
+
+- Licht An, Aus (Beispiel: http://192.168.1.44/CMD?LED=1)
+- Fernsehsimulation (Beispiel http://192.168.1.44/CMD?FAKETV=1)
 
 Die entsprechenden http-Kommandos müssen zyklisch gesendet werden, sonst wird der Fernsteuermodus wieder 
 verlassen und alle LEDs werden ausgeschaltet.
