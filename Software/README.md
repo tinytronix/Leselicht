@@ -36,7 +36,7 @@ Im Initialzustand (Default) wird die Steuerung im Accesspoint-Modus betrieben.
 - Passwort: ESP8266
 - IP: 192.168.1.2
 
-Alle Einstellungen können jederzeit geändert werden. Der  Accesspoint-Modus kann jederzeit aktiviert werden, indem der Drehdrücksteller gehalten wird während die Spannungsversorgung eingeschaltet wird.
+Alle Einstellungen können jederzeit geändert werden. Der  Accesspoint-Modus kann jederzeit aktiviert werden, indem der Drehdrücksteller gedrückt gehalten wird während die Spannungsversorgung eingeschaltet wird.
 Dieser Betriebsmodus wird durch ein blaues Lauflicht (Komet) signalisiert. Er kann auf zwei Arten beendet werden:
 1. mit dem AccessPoint ESP8266 verbinden
 2. dann entweder die Webseite http://192.168.1.2 aufrufen, dann dort zu den Wifi Einstellungen und SSID, IP, Passwort etc eingeben und OK drücken.
