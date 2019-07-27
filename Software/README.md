@@ -39,8 +39,9 @@ Im Initialzustand (Default) wird die Steuerung im Accesspoint-Modus betrieben.
 Alle Einstellungen können jederzeit geändert werden. Der  Accesspoint-Modus kann jederzeit aktiviert werden, indem der Drehdrücksteller gehalten wird während 
 die Spannungsversorgung eingeschaltet wird.
 Dieser Betriebsmodus wird durch ein blaues Lauflicht (Komet) signalisiert. Er kann auf zwei Arten beendet werden:
-1. Webseite http://192.168.1.2, dann dort zu den Wifi Einstellungen und SSID, IP, Passwort etc eingeben und OK drücken.
-2. Drehdrücksteller kurz drücken. 
+1. mit dem AccessPoint ESP8266 verbinden
+2. dann entweder die Webseite http://192.168.1.2 aufrufen, dann dort zu den Wifi Einstellungen und SSID, IP, Passwort etc eingeben und OK drücken.
+3. oder: Ohne weitere Einstellungen vorzunehmen einfach den Drehdrücksteller kurz drücken. 
 Dann startet die Steuerung ebenfalls neu und leuchtet dabei für 1s grün. 
 Das WLAN ist nun vollständig deaktiviert, kann aber später erneut aktiviert werden. 
 
