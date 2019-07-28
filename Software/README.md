@@ -33,16 +33,16 @@ Alle Einstellungen können per Web-Browser vorgenommen werden. Folgende Einstell
 - Name des Access Points (SSID) 
 - WLAN-Passwort
 - Subnetzmaske
-<br>
+
 ![lt](https://github.com/tinytronix/Leselicht/blob/master/Photos/WifiSettings.jpg)
-<br>
+
 - Anzahl der LEDs auf Stripe 1
 - Anzahl der LEDs auf Stripe 2
 - Helligkeitsschwelle Raumlicht und Gradient
 - Festlegung, welcher 1wire Sensor auf ADC0/ADC1 ausgegeben wird
-<br>
+
 ![lt](https://github.com/tinytronix/Leselicht/blob/master/Photos/Settings.jpg)
-<br>
+
 Im Initialzustand (Default) wird die Steuerung im Accesspoint-Modus betrieben.
 - SSID: ESP8266
 - Passwort: ESP8266
