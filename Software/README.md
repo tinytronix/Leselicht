@@ -14,11 +14,16 @@ Folgende Funktionen sind fernsteuerbar:
 Die entsprechenden http-Kommandos müssen zyklisch gesendet werden, sonst wird der Fernsteuermodus wieder 
 verlassen und alle LEDs werden ausgeschaltet.
 
-Es gibt zwei 1wire Sensoren:
-- Temperatur Netzteil
+Es gibt zwei 1wire Sensoren und einen Lichtsensor:
+- Temperatur im Steuergerät nahe Netzteil
 - Temperatur Raum
+- Helligkeit im Raum
 
-Beide Temperaturen können per http abgefragt werden.
+Alle Sensoren können per http abgefragt werden:
+
+- Temperatur im Steuergerät nahe Netzteil: http://192.168.1.44/ADC0
+- Temperatur Raum: http://192.168.1.44/ADC1
+- Helligkeit im Raum: http://192.168.1.44/ADC2
 
 Wenn ein Lichtsensor (LDR) angeschlossen ist, aktiviert sich die Beleuchtung automatisch für eine bestimmte Zeit (ca. 15s), 
 wenn es im Zimmer dunkel wird. 
