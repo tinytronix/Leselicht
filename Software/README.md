@@ -36,6 +36,8 @@ Alle Einstellungen können per Web-Browser vorgenommen werden. Folgende Einstell
 - Anzahl der LEDs auf Stripe 1
 - Anzahl der LEDs auf Stripe 2
 
+![lt](https://github.com/tinytronix/Leselicht/blob/master/Photos/WifiSettings.jpg)
+
 Im Initialzustand (Default) wird die Steuerung im Accesspoint-Modus betrieben.
 - SSID: ESP8266
 - Passwort: ESP8266
