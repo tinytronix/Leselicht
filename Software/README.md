@@ -128,7 +128,8 @@ Encoder: /home/[username]/Arduino/libraries/Encoder/encoder.h:
 
 # Map file erstellen
 ggf zuerst avr binutils installieren: sudo apt-get install binutils-avr
-Dann: frank@frank:~$ avr-objdump -t /tmp/arduino_build_238121/wemos.ino.elf  > /tmp/arduino_build_238121/wemos.ino.map
+Dann: <br>
+user:~$ avr-objdump -t /tmp/arduino_build_238121/wemos.ino.elf  > /tmp/arduino_build_238121/wemos.ino.map
 
 # Crashdaten auswerten
 http://192.168.1.44/INFO  --> epc1 enthält die Absturzadresse - bspw. 0x40202c08
